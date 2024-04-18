@@ -27,10 +27,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://dmolina:5000/api/v1/game/8",
+					"raw": "http://localhost:5000/api/v1/game/8",
 					"protocol": "http",
 					"host": [
-						"dmolina"
+						"localhost"
 					],
 					"port": "5000",
 					"path": [
@@ -64,10 +64,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://dmolina:5000/api/v1/game/8/move",
+					"raw": "http://localhost:5000/api/v1/game/8/move",
 					"protocol": "http",
 					"host": [
-						"dmolina"
+						"localhost"
 					],
 					"port": "5000",
 					"path": [
@@ -102,10 +102,10 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://dmolina:5000/api/v1/game",
+					"raw": "http://localhost:5000/api/v1/game",
 					"protocol": "http",
 					"host": [
-						"dmolina"
+						"localhost"
 					],
 					"port": "5000",
 					"path": [
@@ -148,10 +148,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://dmolina:5000/api/v1/game",
+					"raw": "http://localhost:5000/api/v1/game",
 					"protocol": "http",
 					"host": [
-						"dmolina"
+						"localhost"
 					],
 					"port": "5000",
 					"path": [
@@ -194,10 +194,10 @@
 					}
 				},
 				"url": {
-					"raw": "http://dmolina:5000/api/v1/game/9/move",
+					"raw": "http://localhost:5000/api/v1/game/9/move",
 					"protocol": "http",
 					"host": [
-						"dmolina"
+						"localhost"
 					],
 					"port": "5000",
 					"path": [
