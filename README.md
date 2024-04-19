@@ -38,11 +38,12 @@ Please import the postman.json file into your Postman application and then execu
 - Pre-commit hooks for formatting and linting
 - Deployment on AWS or GCP
 - Enhanced README documentation
+- Enhanced Typing
 - Integration with another database (e.g., PostgreSQL or MySQL)
 
 Completing these tasks could take at least one additional day.
 
-Assumptions
+# Assumptions
 This project is a simple REST API for playing tic-tac-toe, the assumptions are:
 - The user cannot repeat a move.
 - Moves cannot be made after determining a winner.
