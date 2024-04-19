@@ -1,4 +1,4 @@
-# Ethyca Game Challengue
+# Ethyca Technical Challenge
 
 ## Requirements
 - Python 3.10
