@@ -1,8 +1,7 @@
 {
 	"info": {
-		"_postman_id": "05a444ae-58ae-4a3b-a551-1990ed1dec26",
+		"_postman_id": "754e74de-9b72-4a50-844f-dd4c67405c78",
 		"name": "Game",
-		"description": "",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
 		"_exporter_id": "9114984"
 	},
@@ -27,7 +26,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/api/v1/game/8",
+					"raw": "http://localhost:5000/api/v1/game/1",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -37,7 +36,7 @@
 						"api",
 						"v1",
 						"game",
-						"8"
+						"1"
 					]
 				},
 				"description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
@@ -64,7 +63,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/api/v1/game/8/move",
+					"raw": "http://localhost:5000/api/v1/game/1/move",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -74,7 +73,7 @@
 						"api",
 						"v1",
 						"game",
-						"8",
+						"1",
 						"move"
 					]
 				},
@@ -186,7 +185,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n\t\"x\": \"0\",\n    \"y\": \"2\"\n}",
+					"raw": "{\n\t\"x\": \"0\",\n    \"y\": \"0\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -194,7 +193,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/api/v1/game/9/move",
+					"raw": "http://localhost:5000/api/v1/game/1/move",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -204,7 +203,7 @@
 						"api",
 						"v1",
 						"game",
-						"9",
+						"1",
 						"move"
 					]
 				},

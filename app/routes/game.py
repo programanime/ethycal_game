@@ -1,7 +1,7 @@
 import logging
 from http import HTTPStatus
 
-from flask import Blueprint, abort, jsonify, render_template, request
+from flask import Blueprint, jsonify, request
 
 from app.schemas.move import MoveSchema
 from app.services.game import (create_move_for_game, create_new_game,

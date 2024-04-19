@@ -1,5 +1,4 @@
 from sqlalchemy import desc
-from sqlalchemy.orm import Session
 
 from app.models.base import with_db_session
 from app.models.game import Game
@@ -54,7 +53,7 @@ def create_move_for_game(game_id: int, x: int, y: int, db_session):
 def generate_move_for_game(game_id: int, db_session):
     if game := db_session.query(Game).filter(Game.id == game_id).first():
         if game.completed:
-            raise Exception(f"Game completed by {game.winner}")
+            return
         positions = [(x, y) for x in range(3) for y in range(3)]
         for x, y in reversed(positions):
             if not game.get_move(x, y):

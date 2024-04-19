@@ -1,5 +1,3 @@
-import math
-
 from sqlalchemy import Column, Integer, Sequence
 from sqlalchemy.orm import relationship
 
@@ -47,7 +45,7 @@ class Game(Base):
                 return True
 
         if sum([1 for m in moves if m.x == m.y]) == 3 or sum(
-            [1 for m in moves if m.x == math.abs(m.y - 2)]
+            [1 for m in moves if m.x == abs(m.y - 2)]
         ):
             return True
 
